@@ -5,3 +5,15 @@ variable "vpc_cidr" {
 variable "env" {
   default = "dev"
 }
+
+variable "public_subnets" {
+  default = "10.0.1.0/24"
+}
+
+variable "private_subnets" {
+  default = "10.0.2.0/24"
+}
+
+variable "lb_name" {
+  default = "test-lb-tf"
+}
