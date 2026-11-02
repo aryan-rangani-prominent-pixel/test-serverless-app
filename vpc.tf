@@ -9,5 +9,5 @@ resource "aws_vpc" "main" {
 }
 
 resource "aws_security_group" "name" {
-  
+  name = "sgforsg"
 }
