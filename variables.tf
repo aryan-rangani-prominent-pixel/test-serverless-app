@@ -17,3 +17,35 @@ variable "private_subnets" {
 variable "lb_name" {
   default = "test-lb-tf"
 }
+
+variable "api_gw_name" {
+  default = "hello-api"
+}
+
+variable "s3_bucket" {
+  default = "serverless-bucket-aryan-2026"
+}
+
+variable "function_name" {
+  default = "serverless-app"
+}
+
+variable "runtime" {
+  default = "python3.14"
+}
+
+variable "handler" {
+  default = "handler.lambda_handler"
+}
+
+variable "myregion" {
+  default = "sa-east-1"
+}
+
+variable "accountId" {
+  default = 575458732659
+}
+
+variable "stage_name" {
+  default = "dev"
+}
