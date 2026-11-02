@@ -7,3 +7,7 @@ resource "aws_vpc" "main" {
     Name = "main"
   }
 }
+
+resource "aws_security_group" "name" {
+  
+}
